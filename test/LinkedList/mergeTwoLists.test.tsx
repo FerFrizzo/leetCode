@@ -1,13 +1,13 @@
-import { ListNode } from "../src/ListNode";
-import { mergeTwoLists } from '../src/mergeTwoLists'
+import { ListNode } from "../../src/LinkedList/ListNode";
+import { mergeTwoLists } from '../../src/LinkedList/mergeTwoLists'
 
 describe("Merge Two Lists", () => {
   it("should return a ordered merged list", () => {
     const l1 = new ListNode(1, new ListNode(2, new ListNode(4, null)));
     const l2 = new ListNode(1, new ListNode(3, new ListNode(4, null)));
     const expected = new ListNode(1, new ListNode(1,
-        new ListNode(2, new ListNode(3, new ListNode(4, new ListNode(4, null))))
-      )
+      new ListNode(2, new ListNode(3, new ListNode(4, new ListNode(4, null))))
+    )
     );
     const result = mergeTwoLists(l1, l2);
     expect(result).toStrictEqual(expected)

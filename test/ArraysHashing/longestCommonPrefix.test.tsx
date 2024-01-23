@@ -1,4 +1,4 @@
-import { longestCommonPrefix} from '../src/longestCommonPrefix'
+import { longestCommonPrefix } from '../../src/ArraysHashing/longestCommonPrefix'
 
 describe("Longest Common Prefix", () => {
     it("should return fl when flower, flow and flight are inputed", () => {

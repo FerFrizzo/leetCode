@@ -1,7 +1,7 @@
-import { strStr } from '../src/strStr'
+import { strStr } from '../../src/ArraysHashing/strStr'
 
 describe("Needle in the haystack", () => {
-    
+
     it("should return index of the string", () => {
         const result = strStr('sadbutsad', 'sad');
         expect(result).toBe(0);

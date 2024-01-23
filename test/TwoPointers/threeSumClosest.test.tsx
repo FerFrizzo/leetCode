@@ -1,4 +1,4 @@
-import { threeSumClosest } from "../src/threeSumClosest";
+import { threeSumClosest } from "../../src/TwoPointers/threeSumClosest";
 
 describe("Three Sum Closest", () => {
   it("should find return 2", () => {

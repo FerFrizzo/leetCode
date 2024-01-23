@@ -1,4 +1,4 @@
-import { climbStairs } from '../src/climbingStairs'
+import { climbStairs } from '../../src/DynamicProgramming/climbingStairs'
 
 describe('Add Binary', () => {
   it("should respond 2 when 2", () => {

@@ -1,4 +1,4 @@
-import { addBinary } from '../src/addBinary'
+import { addBinary } from '../../src/TwoPointers/addBinary'
 
 describe('Add Binary', () => {
   it("should respond 100 when 11 + 1", () => {

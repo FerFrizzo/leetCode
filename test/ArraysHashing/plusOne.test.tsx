@@ -1,4 +1,4 @@
-import { plusOne } from '../src/plusOne'
+import { plusOne } from '../../src/ArraysHashing/plusOne'
 
 describe('Plus one', () => {
   it('should return 124', () => {
@@ -8,7 +8,7 @@ describe('Plus one', () => {
   })
 
   it('should return 4322', () => {
-    const result = plusOne([4,3,2,1])
+    const result = plusOne([4, 3, 2, 1])
     const expected = [4, 3, 2, 2]
     expect(result.toString).toBe(expected.toString)
   })

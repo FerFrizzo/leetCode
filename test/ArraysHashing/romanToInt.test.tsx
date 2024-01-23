@@ -1,4 +1,4 @@
-import { romanToInt } from "../src/romanToInt";
+import { romanToInt } from "../../src/ArraysHashing/romanToInt";
 
 describe("Roman to Integer", () => {
   it("should transform III into 3", () => {
@@ -25,7 +25,7 @@ describe("Roman to Integer", () => {
     const result = romanToInt("IV");
     expect(result).toBe(4);
   });
-  
+
   it("should transform XIV into 14", () => {
     const result = romanToInt("XIV");
     expect(result).toBe(14);

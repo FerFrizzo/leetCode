@@ -1,4 +1,4 @@
-import { isPalindrome } from "../src/palindromeNumber";
+import { isPalindrome } from "../../src/TwoPointers/palindromeNumber";
 
 describe("Palindrome Number", () => {
   test("check if 121 is a palindrome", () => {
