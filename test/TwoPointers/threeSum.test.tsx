@@ -1,4 +1,4 @@
-import { threeSum } from "../src/threeSum";
+import { threeSum } from "../../src/TwoPointers/threeSum";
 
 describe("Three Sum", () => {
   it("should find ..", () => {

@@ -1,4 +1,4 @@
-import { twoSumP2 } from "../src/twoSumP2";
+import { twoSumP2 } from "../../src/TwoPointers/twoSumP2";
 
 describe("Two Sum II", () => {
   it("should return the (index + 1) of the two numbers that adds to the target", () => {
