@@ -15,6 +15,5 @@ export function generateParenthesis(n: number): string[] {
   }
 
   backtrack('', n, n)
-  console.log(result)
   return result
 }
